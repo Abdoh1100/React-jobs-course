@@ -1,6 +1,9 @@
 import data from '../assets/data.json'
-import Job from './job.jsx'
+import Job from './Job'
+
 const JobsList = () => {
+  const recentJobs = data.slice(0, 3);
+
   return (
     <section className="w-full bg-slate-50 py-10">
       <div className="mx-auto max-w-6xl px-4">
@@ -9,7 +12,7 @@ const JobsList = () => {
         </h2>
 
         <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {data.map((jobData) => (
+          {recentJobs.map((jobData) => (
             <Job key={jobData.id} jobData={jobData} />
           ))}
         </div>
