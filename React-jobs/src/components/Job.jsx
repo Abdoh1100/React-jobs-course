@@ -1,5 +1,6 @@
 import { useState } from "react"
 import {FaMapMarker} from 'react-icons/fa'
+import { Link } from "react-router-dom"
 const Job = ({jobData}) => {
 
   const [showFullDescription,setShowFullDescription] =useState(false)
@@ -32,10 +33,12 @@ const Job = ({jobData}) => {
       </div>
 
       <div className="mt-6">
-        <button className="rounded-md bg-indigo-600 px-4 py-2 
+        <Link 
+        to={`/jobs/${jobData.id}`}
+        className="rounded-md bg-indigo-600 px-4 py-2 
         text-sm font-medium text-white hover:bg-indigo-700">
           Read More
-        </button>
+        </Link>
       </div>
     </div>
   )
