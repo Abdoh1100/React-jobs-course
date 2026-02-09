@@ -1,6 +1,9 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
+  const activeClassName = ({ isActive }) =>
+  `px-3 py-1.5 rounded-md ${isActive ? 'bg-white/20' : 'hover:bg-white/10'} transition`
   return (
    <>
    <nav className="bg-indigo-600 text-white">
@@ -10,11 +13,11 @@ function Navbar() {
       </div>
 
       <div className="flex items-center gap-3 text-sm">
-        <a href="#" className="px-3 py-1.5 rounded-md bg-black/80 hover:bg-black transition">Home</a>
-        <a href="#" className="px-3 py-1.5 rounded-md hover:bg-white/10 transition">Jobs</a>
-        <a href="#" className="px-3 py-1.5 rounded-md hover:bg-white/10 transition">Add Job</a>
+        <NavLink to="/" className={activeClassName}>Home</NavLink>
+        <NavLink to="/jobs" className={activeClassName}>Jobs</NavLink>
+        <NavLink to="/addJob" className={activeClassName}>Add Job</NavLink>
       </div>
-    </div>
+    </div>  
   </nav>
    </>
   )
