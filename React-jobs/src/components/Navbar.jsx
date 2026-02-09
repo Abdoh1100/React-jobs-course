@@ -15,7 +15,7 @@ function Navbar() {
       <div className="flex items-center gap-3 text-sm">
         <NavLink to="/" className={activeClassName}>Home</NavLink>
         <NavLink to="/jobs" className={activeClassName}>Jobs</NavLink>
-        <NavLink to="/addJob" className={activeClassName}>Add Job</NavLink>
+        <NavLink to="/add-job" className={activeClassName}>Add Job</NavLink>
       </div>
     </div>  
   </nav>

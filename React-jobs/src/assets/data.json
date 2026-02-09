@@ -1,263 +1,334 @@
-{"jobs": [
-  {
-    "id": "1",
-    "title": "Senior React Developer",
-    "type": "Full-Time",
-    "description": "Develop scalable front-end applications using React and modern JavaScript tooling.",
-    "location": "Boston, MA",
-    "salary": "$90K - $120K",
-    "company": {
-      "name": "NewTek Solutions",
-      "description": "Technology company specializing in web and digital product development.",
-      "contactEmail": "careers1@newtek.com"
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Senior React Developer",
+      "type": "Full-Time",
+      "description": "Develop scalable front-end applications using React and modern JavaScript tooling.",
+      "location": "Boston, MA",
+      "salary": "$90K - $120K",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "Technology company specializing in web and digital product development.",
+        "contactEmail": "careers1@newtek.com"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Backend Node.js Engineer",
+      "type": "Full-Time",
+      "description": "Build APIs and scalable backend services using Node.js and cloud platforms.",
+      "location": "Austin, TX",
+      "salary": "$85K - $110K",
+      "company": {
+        "name": "CloudCore Systems",
+        "description": "Cloud infrastructure and backend engineering company.",
+        "contactEmail": "careers2@cloudcore.com"
+      }
+    },
+    {
+      "id": "3",
+      "title": "UI/UX Designer",
+      "type": "Contract",
+      "description": "Design intuitive user interfaces and engaging digital experiences.",
+      "location": "Remote",
+      "salary": "$50/hr",
+      "company": {
+        "name": "PixelForge Studio",
+        "description": "Creative studio focused on digital design.",
+        "contactEmail": "careers3@pixelforge.com"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Full Stack Developer",
+      "type": "Full-Time",
+      "description": "Work across frontend and backend systems to deliver full-stack applications.",
+      "location": "Seattle, WA",
+      "salary": "$95K - $130K",
+      "company": {
+        "name": "StackWave Technologies",
+        "description": "SaaS platform development company.",
+        "contactEmail": "careers4@stackwave.com"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Junior Frontend Developer",
+      "type": "Internship",
+      "description": "Assist in building responsive web interfaces using HTML, CSS, and JavaScript.",
+      "location": "San Francisco, CA",
+      "salary": "$60K - $75K",
+      "company": {
+        "name": "BrightStart Labs",
+        "description": "Startup incubator for innovative applications.",
+        "contactEmail": "careers5@brightstart.com"
+      }
+    },
+    {
+      "id": "6",
+      "title": "DevOps Engineer",
+      "type": "Full-Time",
+      "description": "Manage CI/CD pipelines and cloud infrastructure automation.",
+      "location": "Denver, CO",
+      "salary": "$100K - $135K",
+      "company": {
+        "name": "InfraTech Solutions",
+        "description": "Infrastructure automation specialists.",
+        "contactEmail": "careers6@infratech.com"
+      }
+    },
+    {
+      "id": "7",
+      "title": "Mobile App Developer",
+      "type": "Full-Time",
+      "description": "Develop cross-platform mobile applications using React Native.",
+      "location": "Chicago, IL",
+      "salary": "$85K - $115K",
+      "company": {
+        "name": "AppWorks Studio",
+        "description": "Mobile-first software development company.",
+        "contactEmail": "careers7@appworks.com"
+      }
+    },
+    {
+      "id": "8",
+      "title": "Data Analyst",
+      "type": "Full-Time",
+      "description": "Analyze datasets and generate actionable insights.",
+      "location": "New York, NY",
+      "salary": "$75K - $100K",
+      "company": {
+        "name": "Insight Analytics",
+        "description": "Data-driven consulting firm.",
+        "contactEmail": "careers8@insight.com"
+      }
+    },
+    {
+      "id": "9",
+      "title": "QA Engineer",
+      "type": "Full-Time",
+      "description": "Ensure software quality through automated and manual testing.",
+      "location": "Atlanta, GA",
+      "salary": "$70K - $95K",
+      "company": {
+        "name": "QualitySoft",
+        "description": "Software testing and QA specialists.",
+        "contactEmail": "careers9@qualitysoft.com"
+      }
+    },
+    {
+      "id": "10",
+      "title": "Product Manager",
+      "type": "Full-Time",
+      "description": "Lead product strategy and roadmap execution.",
+      "location": "Los Angeles, CA",
+      "salary": "$105K - $145K",
+      "company": {
+        "name": "Visionary Products",
+        "description": "Product innovation consultancy.",
+        "contactEmail": "careers10@visionary.com"
+      }
+    },
+    {
+      "id": "11",
+      "title": "Frontend Engineer",
+      "type": "Full-Time",
+      "description": "Create high-performance web interfaces using modern frameworks.",
+      "location": "Miami, FL",
+      "salary": "$80K - $110K",
+      "company": {
+        "name": "WebCraft Co",
+        "description": "Frontend engineering specialists.",
+        "contactEmail": "careers11@webcraft.com"
+      }
+    },
+    {
+      "id": "12",
+      "title": "Systems Administrator",
+      "type": "Full-Time",
+      "description": "Maintain servers and IT infrastructure.",
+      "location": "Dallas, TX",
+      "salary": "$70K - $95K",
+      "company": {
+        "name": "SysOps Group",
+        "description": "Enterprise IT solutions provider.",
+        "contactEmail": "careers12@sysops.com"
+      }
+    },
+    {
+      "id": "13",
+      "title": "Machine Learning Engineer",
+      "type": "Full-Time",
+      "description": "Develop predictive models and ML pipelines.",
+      "location": "San Jose, CA",
+      "salary": "$120K - $160K",
+      "company": {
+        "name": "AI Dynamics",
+        "description": "Artificial intelligence research firm.",
+        "contactEmail": "careers13@aidynamics.com"
+      }
+    },
+    {
+      "id": "14",
+      "title": "Technical Writer",
+      "type": "Contract",
+      "description": "Create clear and concise technical documentation.",
+      "location": "Remote",
+      "salary": "$40/hr",
+      "company": {
+        "name": "DocuPro",
+        "description": "Technical documentation services.",
+        "contactEmail": "careers14@docupro.com"
+      }
+    },
+    {
+      "id": "15",
+      "title": "Cybersecurity Analyst",
+      "type": "Full-Time",
+      "description": "Protect systems and networks from security threats.",
+      "location": "Washington, DC",
+      "salary": "$95K - $130K",
+      "company": {
+        "name": "SecureNet",
+        "description": "Cybersecurity consulting firm.",
+        "contactEmail": "careers15@securenet.com"
+      }
+    },
+    {
+      "id": "16",
+      "title": "Cloud Engineer",
+      "type": "Full-Time",
+      "description": "Design and manage cloud architecture.",
+      "location": "Phoenix, AZ",
+      "salary": "$100K - $140K",
+      "company": {
+        "name": "SkyCloud Tech",
+        "description": "Cloud-native infrastructure company.",
+        "contactEmail": "careers16@skycloud.com"
+      }
+    },
+    {
+      "id": "17",
+      "title": "Game Developer",
+      "type": "Full-Time",
+      "description": "Develop interactive games using modern engines.",
+      "location": "Los Angeles, CA",
+      "salary": "$85K - $120K",
+      "company": {
+        "name": "PlayForge",
+        "description": "Independent game studio.",
+        "contactEmail": "careers17@playforge.com"
+      }
+    },
+    {
+      "id": "18",
+      "title": "Business Analyst",
+      "type": "Full-Time",
+      "description": "Bridge business needs with technical solutions.",
+      "location": "Chicago, IL",
+      "salary": "$75K - $105K",
+      "company": {
+        "name": "BizLogic",
+        "description": "Business consulting firm.",
+        "contactEmail": "careers18@bizlogic.com"
+      }
+    },
+    {
+      "id": "19",
+      "title": "Network Engineer",
+      "type": "Full-Time",
+      "description": "Design and maintain network infrastructure.",
+      "location": "Houston, TX",
+      "salary": "$80K - $110K",
+      "company": {
+        "name": "NetCore Systems",
+        "description": "Enterprise networking solutions.",
+        "contactEmail": "careers19@netcore.com"
+      }
+    },
+    {
+      "id": "20",
+      "title": "Software Architect",
+      "type": "Full-Time",
+      "description": "Define software architecture and system design.",
+      "location": "San Diego, CA",
+      "salary": "$130K - $170K",
+      "company": {
+        "name": "ArchTech",
+        "description": "Software architecture consultancy.",
+        "contactEmail": "careers20@archtech.com"
+      }
+    },
+    {
+      "id": "07de",
+      "type": "",
+      "title": "",
+      "location": "",
+      "description": "",
+      "salary": "",
+      "company": {
+        "name": "",
+        "description": "",
+        "contactEmail": "",
+        "contactPhone": ""
+      }
+    },
+    {
+      "id": "2ae4",
+      "type": "",
+      "title": "",
+      "location": "",
+      "description": "",
+      "salary": "",
+      "company": {
+        "name": "",
+        "description": "",
+        "contactEmail": "",
+        "contactPhone": ""
+      }
+    },
+    {
+      "id": "28bb",
+      "type": "",
+      "title": "",
+      "location": "",
+      "description": "",
+      "salary": "",
+      "company": {
+        "name": "",
+        "description": "",
+        "contactEmail": "",
+        "contactPhone": ""
+      }
+    },
+    {
+      "id": "de69",
+      "type": "",
+      "title": "",
+      "location": "",
+      "description": "",
+      "salary": "",
+      "company": {
+        "name": "",
+        "description": "",
+        "contactEmail": "",
+        "contactPhone": ""
+      }
+    },
+    {
+      "id": "f7d0",
+      "type": "",
+      "title": "",
+      "location": "",
+      "description": "",
+      "salary": "",
+      "company": {
+        "name": "",
+        "description": "",
+        "contactEmail": "",
+        "contactPhone": ""
+      }
     }
-  },
-  {
-    "id": "2",
-    "title": "Backend Node.js Engineer",
-    "type": "Full-Time",
-    "description": "Build APIs and scalable backend services using Node.js and cloud platforms.",
-    "location": "Austin, TX",
-    "salary": "$85K - $110K",
-    "company": {
-      "name": "CloudCore Systems",
-      "description": "Cloud infrastructure and backend engineering company.",
-      "contactEmail": "careers2@cloudcore.com"
-    }
-  },
-  {
-    "id": "3",
-    "title": "UI/UX Designer",
-    "type": "Contract",
-    "description": "Design intuitive user interfaces and engaging digital experiences.",
-    "location": "Remote",
-    "salary": "$50/hr",
-    "company": {
-      "name": "PixelForge Studio",
-      "description": "Creative studio focused on digital design.",
-      "contactEmail": "careers3@pixelforge.com"
-    }
-  },
-  {
-    "id": "4",
-    "title": "Full Stack Developer",
-    "type": "Full-Time",
-    "description": "Work across frontend and backend systems to deliver full-stack applications.",
-    "location": "Seattle, WA",
-    "salary": "$95K - $130K",
-    "company": {
-      "name": "StackWave Technologies",
-      "description": "SaaS platform development company.",
-      "contactEmail": "careers4@stackwave.com"
-    }
-  },
-  {
-    "id": "5",
-    "title": "Junior Frontend Developer",
-    "type": "Internship",
-    "description": "Assist in building responsive web interfaces using HTML, CSS, and JavaScript.",
-    "location": "San Francisco, CA",
-    "salary": "$60K - $75K",
-    "company": {
-      "name": "BrightStart Labs",
-      "description": "Startup incubator for innovative applications.",
-      "contactEmail": "careers5@brightstart.com"
-    }
-  },
-  {
-    "id": "6",
-    "title": "DevOps Engineer",
-    "type": "Full-Time",
-    "description": "Manage CI/CD pipelines and cloud infrastructure automation.",
-    "location": "Denver, CO",
-    "salary": "$100K - $135K",
-    "company": {
-      "name": "InfraTech Solutions",
-      "description": "Infrastructure automation specialists.",
-      "contactEmail": "careers6@infratech.com"
-    }
-  },
-  {
-    "id": "7",
-    "title": "Mobile App Developer",
-    "type": "Full-Time",
-    "description": "Develop cross-platform mobile applications using React Native.",
-    "location": "Chicago, IL",
-    "salary": "$85K - $115K",
-    "company": {
-      "name": "AppWorks Studio",
-      "description": "Mobile-first software development company.",
-      "contactEmail": "careers7@appworks.com"
-    }
-  },
-  {
-    "id": "8",
-    "title": "Data Analyst",
-    "type": "Full-Time",
-    "description": "Analyze datasets and generate actionable insights.",
-    "location": "New York, NY",
-    "salary": "$75K - $100K",
-    "company": {
-      "name": "Insight Analytics",
-      "description": "Data-driven consulting firm.",
-      "contactEmail": "careers8@insight.com"
-    }
-  },
-  {
-    "id": "9",
-    "title": "QA Engineer",
-    "type": "Full-Time",
-    "description": "Ensure software quality through automated and manual testing.",
-    "location": "Atlanta, GA",
-    "salary": "$70K - $95K",
-    "company": {
-      "name": "QualitySoft",
-      "description": "Software testing and QA specialists.",
-      "contactEmail": "careers9@qualitysoft.com"
-    }
-  },
-  {
-    "id": "10",
-    "title": "Product Manager",
-    "type": "Full-Time",
-    "description": "Lead product strategy and roadmap execution.",
-    "location": "Los Angeles, CA",
-    "salary": "$105K - $145K",
-    "company": {
-      "name": "Visionary Products",
-      "description": "Product innovation consultancy.",
-      "contactEmail": "careers10@visionary.com"
-    }
-  },
-  {
-    "id": "11",
-    "title": "Frontend Engineer",
-    "type": "Full-Time",
-    "description": "Create high-performance web interfaces using modern frameworks.",
-    "location": "Miami, FL",
-    "salary": "$80K - $110K",
-    "company": {
-      "name": "WebCraft Co",
-      "description": "Frontend engineering specialists.",
-      "contactEmail": "careers11@webcraft.com"
-    }
-  },
-  {
-    "id": "12",
-    "title": "Systems Administrator",
-    "type": "Full-Time",
-    "description": "Maintain servers and IT infrastructure.",
-    "location": "Dallas, TX",
-    "salary": "$70K - $95K",
-    "company": {
-      "name": "SysOps Group",
-      "description": "Enterprise IT solutions provider.",
-      "contactEmail": "careers12@sysops.com"
-    }
-  },
-  {
-    "id": "13",
-    "title": "Machine Learning Engineer",
-    "type": "Full-Time",
-    "description": "Develop predictive models and ML pipelines.",
-    "location": "San Jose, CA",
-    "salary": "$120K - $160K",
-    "company": {
-      "name": "AI Dynamics",
-      "description": "Artificial intelligence research firm.",
-      "contactEmail": "careers13@aidynamics.com"
-    }
-  },
-  {
-    "id": "14",
-    "title": "Technical Writer",
-    "type": "Contract",
-    "description": "Create clear and concise technical documentation.",
-    "location": "Remote",
-    "salary": "$40/hr",
-    "company": {
-      "name": "DocuPro",
-      "description": "Technical documentation services.",
-      "contactEmail": "careers14@docupro.com"
-    }
-  },
-  {
-    "id": "15",
-    "title": "Cybersecurity Analyst",
-    "type": "Full-Time",
-    "description": "Protect systems and networks from security threats.",
-    "location": "Washington, DC",
-    "salary": "$95K - $130K",
-    "company": {
-      "name": "SecureNet",
-      "description": "Cybersecurity consulting firm.",
-      "contactEmail": "careers15@securenet.com"
-    }
-  },
-  {
-    "id": "16",
-    "title": "Cloud Engineer",
-    "type": "Full-Time",
-    "description": "Design and manage cloud architecture.",
-    "location": "Phoenix, AZ",
-    "salary": "$100K - $140K",
-    "company": {
-      "name": "SkyCloud Tech",
-      "description": "Cloud-native infrastructure company.",
-      "contactEmail": "careers16@skycloud.com"
-    }
-  },
-  {
-    "id": "17",
-    "title": "Game Developer",
-    "type": "Full-Time",
-    "description": "Develop interactive games using modern engines.",
-    "location": "Los Angeles, CA",
-    "salary": "$85K - $120K",
-    "company": {
-      "name": "PlayForge",
-      "description": "Independent game studio.",
-      "contactEmail": "careers17@playforge.com"
-    }
-  },
-  {
-    "id": "18",
-    "title": "Business Analyst",
-    "type": "Full-Time",
-    "description": "Bridge business needs with technical solutions.",
-    "location": "Chicago, IL",
-    "salary": "$75K - $105K",
-    "company": {
-      "name": "BizLogic",
-      "description": "Business consulting firm.",
-      "contactEmail": "careers18@bizlogic.com"
-    }
-  },
-  {
-    "id": "19",
-    "title": "Network Engineer",
-    "type": "Full-Time",
-    "description": "Design and maintain network infrastructure.",
-    "location": "Houston, TX",
-    "salary": "$80K - $110K",
-    "company": {
-      "name": "NetCore Systems",
-      "description": "Enterprise networking solutions.",
-      "contactEmail": "careers19@netcore.com"
-    }
-  },
-  {
-    "id": "20",
-    "title": "Software Architect",
-    "type": "Full-Time",
-    "description": "Define software architecture and system design.",
-    "location": "San Diego, CA",
-    "salary": "$130K - $170K",
-    "company": {
-      "name": "ArchTech",
-      "description": "Software architecture consultancy.",
-      "contactEmail": "careers20@archtech.com"
-    }
-  }
-]
+  ]
 }
