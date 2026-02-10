@@ -1,13 +1,20 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-const JobShape = ({job}) => {
+import React from "react";
+import { Link, useNavigate } from "react-router-dom";
+const JobShape = ({ onDelete, job }) => {
+  const navigate = useNavigate();
+  const onDeleteJob = (jobId) => {
+    const confirm = window.confirm("Are you sure want to delete listing ?");
+    if (!confirm) return;
+
+    onDelete(jobId);
+    navigate("/jobs");
+  };
+
   return (
     <div className="min-h-screen bg-slate-100">
       {/* Top back link row */}
       <div className="mx-auto max-w-6xl px-4 py-6">
-        <Link to='/jobs'>
-        ← Back to Job Listings
-        </Link>
+        <Link to="/jobs">← Back to Job Listings</Link>
       </div>
 
       {/* Main layout */}
@@ -97,16 +104,15 @@ const JobShape = ({job}) => {
               <div className="mt-5 space-y-3">
                 <button
                   type="button"
-                  className="w-full rounded-full bg-indigo-600 px-4 py-3 text-sm font-extrabold text-white shadow-sm"
-                >
+                  className="w-full rounded-full bg-indigo-600 px-4 py-3 text-sm font-extrabold text-white shadow-sm">
                   Edit Job
                 </button>
 
                 <button
+                  onClick={() => onDeleteJob(job.id)}
                   type="button"
-                  className="w-full rounded-full bg-red-600 px-4 py-3 text-sm font-extrabold text-white shadow-sm"
-                >
-                  Delete Job
+                  className="w-full rounded-full bg-red-600 px-4 py-3 text-sm font-extrabold text-white shadow-sm">
+                  Delete
                 </button>
               </div>
             </div>
@@ -115,6 +121,6 @@ const JobShape = ({job}) => {
       </main>
     </div>
   );
-}
+};
 
-export default JobShape
+export default JobShape;

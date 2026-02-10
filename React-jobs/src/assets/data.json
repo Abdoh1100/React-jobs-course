@@ -27,19 +27,6 @@
       }
     },
     {
-      "id": "3",
-      "title": "UI/UX Designer",
-      "type": "Contract",
-      "description": "Design intuitive user interfaces and engaging digital experiences.",
-      "location": "Remote",
-      "salary": "$50/hr",
-      "company": {
-        "name": "PixelForge Studio",
-        "description": "Creative studio focused on digital design.",
-        "contactEmail": "careers3@pixelforge.com"
-      }
-    },
-    {
       "id": "4",
       "title": "Full Stack Developer",
       "type": "Full-Time",
@@ -261,73 +248,17 @@
       }
     },
     {
-      "id": "07de",
+      "id": "6879",
       "type": "",
-      "title": "",
-      "location": "",
-      "description": "",
-      "salary": "",
+      "title": "testJOb",
+      "location": "berlin",
+      "description": "nothing",
+      "salary": "50",
       "company": {
-        "name": "",
-        "description": "",
-        "contactEmail": "",
-        "contactPhone": ""
-      }
-    },
-    {
-      "id": "2ae4",
-      "type": "",
-      "title": "",
-      "location": "",
-      "description": "",
-      "salary": "",
-      "company": {
-        "name": "",
-        "description": "",
-        "contactEmail": "",
-        "contactPhone": ""
-      }
-    },
-    {
-      "id": "28bb",
-      "type": "",
-      "title": "",
-      "location": "",
-      "description": "",
-      "salary": "",
-      "company": {
-        "name": "",
-        "description": "",
-        "contactEmail": "",
-        "contactPhone": ""
-      }
-    },
-    {
-      "id": "de69",
-      "type": "",
-      "title": "",
-      "location": "",
-      "description": "",
-      "salary": "",
-      "company": {
-        "name": "",
-        "description": "",
-        "contactEmail": "",
-        "contactPhone": ""
-      }
-    },
-    {
-      "id": "f7d0",
-      "type": "",
-      "title": "",
-      "location": "",
-      "description": "",
-      "salary": "",
-      "company": {
-        "name": "",
-        "description": "",
-        "contactEmail": "",
-        "contactPhone": ""
+        "name": "pimky",
+        "description": "copmany",
+        "contactEmail": "a@b",
+        "contactPhone": "-123"
       }
     }
   ]
