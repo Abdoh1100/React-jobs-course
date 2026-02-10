@@ -1,15 +1,14 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
 import JobShape from "../components/jobShape";
-import Job from "../components/Job";
 import Spinner from "../components/Spinner";
 
 const JobPage = ({ deleteJob }) => {
-  const job = useLoaderData();
+  const loadedjob = useLoaderData();
 
   return (
     <>
-      <JobShape onDelete={deleteJob} job={job} />
+      <JobShape onDelete={deleteJob} job={loadedjob} />
     </>
   );
 };

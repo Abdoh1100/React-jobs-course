@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 const JobShape = ({ onDelete, job }) => {
   const navigate = useNavigate();
   const onDeleteJob = (jobId) => {
@@ -7,8 +8,14 @@ const JobShape = ({ onDelete, job }) => {
     if (!confirm) return;
 
     onDelete(jobId);
+    toast.success("Job deleted successfully !");
     navigate("/jobs");
   };
+
+  // const editHandler = (id) => {
+  //   onEdit(id);
+  //   navigate("/editPage");
+  // };
 
   return (
     <div className="min-h-screen bg-slate-100">
@@ -102,16 +109,16 @@ const JobShape = ({ onDelete, job }) => {
               </h3>
 
               <div className="mt-5 space-y-3">
-                <button
-                  type="button"
-                  className="w-full rounded-full bg-indigo-600 px-4 py-3 text-sm font-extrabold text-white shadow-sm">
+                <Link
+                  to={`/edit-job/${job.id}`}
+                  className="block w-full text-center rounded-full bg-[#4b49e6] px-4 py-3 text-sm font-extrabold text-white shadow-sm">
                   Edit Job
-                </button>
+                </Link>
 
                 <button
                   onClick={() => onDeleteJob(job.id)}
                   type="button"
-                  className="w-full rounded-full bg-red-600 px-4 py-3 text-sm font-extrabold text-white shadow-sm">
+                  className=" btn-pill w-full rounded-full bg-red-600 px-4 py-3 text-sm font-extrabold text-white shadow-sm">
                   Delete
                 </button>
               </div>
